@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(103 50 163);
+}
+
+.background #background-image{
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+header{
+    margin: 0 auto;
+    height: 10vh;
+}
+
+header #logo{
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+header #logo img{
+    width: 40vw;
+}
+
+main .main_content{
+    margin: 0 auto;
+    height: 80vh;
+    width: 80vw;
+    text-align: center;
+}
+
+main .main_content #main_content-Ilustration #Ilustration{
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+} 
+
+main .main_content h1{
+    margin-top: 15vh;
+    display: block;
+    color: white;
+}
+
+main .main_content #main_content-Text{
+    margin-top: 2vh;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.35rem;
+    color: white;
+}
+
+main .main_content #main_content_button{
+    margin-top: 2vh;
+}
+
+main .main_content #main_content_button #main_content-button-register{
+    height: 5vh;
+    width: 40vw;
+    text-align: center;
+    color: rgb(142, 90, 201);
+    border-radius: 25px;
+    border-width: 0;
+}
+
+footer{
+    display: grid;
+    padding-top: 1vh;
+    background-color: black;
+    place-content: center;
+}
+
+footer .social_media{
+    width: 35vw;
+    min-width: 120px;
+}
+
+footer .social_media #social_media-Facebook{
+    margin-left: 10%;
+    display: inline;
+}
+
+footer .social_media #social_media-Facebook button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    align-content: center;
+}
+
+footer .social_media #social_media-Facebook picture img{
+    width: 20px;
+    height: 20px;
+}
+
+footer .social_media #social_media-Twitter{
+    margin-left: 1vw;
+    display: inline;
+}
+
+footer .social_media #social_media-Twitter button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    align-content: center;
+}
+
+footer .social_media #social_media-Twitter picture img{
+    width: 15px;
+    height: 15px;
+}
+
+footer .social_media #social_media-Instagram{
+    margin-left: 1vw;
+    display: inline;
+}
+
+footer .social_media #social_media-Instagram button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    align-content: center;
+}
+
+footer .social_media #social_media-Instagram picture img{
+    width: 17px;
+    height: 17px;
+}
