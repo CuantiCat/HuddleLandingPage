@@ -44,6 +44,7 @@ main .main_content{
 main .main_content #main_content-Ilustration #Ilustration{
     display: block;
     width: 70vw;
+    height: auto;
     margin: 0 auto;
 } 
 
@@ -75,6 +76,7 @@ main .main_content #main_content_button #main_content-button-register{
 }
 
 footer{
+    position: relative;
     display: flex;
     place-content: center;
 }
