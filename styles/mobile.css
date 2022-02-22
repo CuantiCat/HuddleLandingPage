@@ -75,19 +75,21 @@ main .main_content #main_content_button #main_content-button-register{
 }
 
 footer{
-    display: grid;
-    padding-top: 1vh;
+    display: flex;
     place-content: center;
 }
 
 footer .social_media{
-    width: 35vw;
+    display: flex;
+    width: 40vw;
     min-width: 120px;
+    place-content: center;
+    align-content: space-between;
 }
 
 footer .social_media #social_media-Facebook{
-    margin-left: 10%;
     display: inline;
+    margin-right: 2vw;
 }
 
 footer .social_media #social_media-Facebook button{
@@ -98,16 +100,15 @@ footer .social_media #social_media-Facebook button{
     border-radius: 25px;
     border-color: white;
     border-style: solid;
-    align-content: center;
 }
 
 footer .social_media #social_media-Facebook picture img{
     width: 20px;
     height: 20px;
+    margin-top: 2px;
 }
 
 footer .social_media #social_media-Twitter{
-    margin-left: 1vw;
     display: inline;
 }
 
@@ -119,17 +120,17 @@ footer .social_media #social_media-Twitter button{
     border-radius: 25px;
     border-color: white;
     border-style: solid;
-    align-content: center;
 }
 
 footer .social_media #social_media-Twitter picture img{
     width: 15px;
     height: 15px;
+    margin-top: 2px;
 }
 
 footer .social_media #social_media-Instagram{
-    margin-left: 1vw;
     display: inline;
+    margin-left: 2vw;
 }
 
 footer .social_media #social_media-Instagram button{
@@ -140,10 +141,10 @@ footer .social_media #social_media-Instagram button{
     border-radius: 25px;
     border-color: white;
     border-style: solid;
-    align-content: center;
 }
 
 footer .social_media #social_media-Instagram picture img{
     width: 17px;
     height: 17px;
+    margin-top: 2px;
 }
