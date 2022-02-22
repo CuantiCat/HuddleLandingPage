@@ -20,7 +20,6 @@ body{
 }
 
 header{
-    margin: 0 auto;
     height: 10vh;
 }
 
@@ -43,14 +42,16 @@ main .main_content{
 
 main .main_content #main_content-Ilustration #Ilustration{
     display: block;
+    position: static;
     width: 70vw;
     height: auto;
     margin: 0 auto;
 } 
 
 main .main_content h1{
-    margin-top: 15vh;
     display: block;
+    position: static;
+    margin-top: 15vh;
     color: white;
 }
 
@@ -76,8 +77,8 @@ main .main_content #main_content_button #main_content-button-register{
 }
 
 footer{
-    position: relative;
     display: flex;
+    width: 100vw;
     place-content: center;
 }
 
