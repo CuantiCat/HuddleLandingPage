@@ -78,8 +78,9 @@ main .main_content #main_content_button #main_content-button-register{
 
 footer{
     display: flex;
-    width: 100vw;
+    width: 100%;
     place-content: center;
+    margin-top: 15px;
 }
 
 footer .social_media{
