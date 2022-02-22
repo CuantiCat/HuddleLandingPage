@@ -77,7 +77,6 @@ main .main_content #main_content_button #main_content-button-register{
 footer{
     display: grid;
     padding-top: 1vh;
-    background-color: black;
     place-content: center;
 }
 
