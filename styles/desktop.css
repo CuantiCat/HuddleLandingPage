@@ -1,0 +1,57 @@
+.background #background-image{
+    content: url(/images/bg-desktop.svg);
+    height: 100vh;
+}
+
+header #logo{
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+header #logo img{
+    width: 20vw;
+}
+
+main .main_content{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+main .main_content #main_content-Ilustration #Ilustration{
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
+main .main_content h1{
+    position:relative;
+    font-size: 2rem;
+    text-align: start;
+    margin-top: 10vh;
+}
+
+main .main_content #main_content-Text{
+    position: relative;
+    text-align: start;
+    font-size: 1.6rem;
+}
+
+main .main_content #main_content_button #main_content-button-register{
+    height: 5vh;
+    width: 10vw;
+    height: 50px;
+}
+
+footer{
+    place-content: end;
+}
+
+footer .social_media{
+    position: relative;
+    right: 5vw;
+    bottom: 5vh;
+    width: fit-content;
+}

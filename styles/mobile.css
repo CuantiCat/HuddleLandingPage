@@ -16,6 +16,7 @@ body{
 .background #background-image{
     position: absolute;
     width: 100vw;
+    top: 0;
     z-index: -1;
 }
 
@@ -51,15 +52,17 @@ main .main_content #main_content-Ilustration #Ilustration{
 main .main_content h1{
     display: block;
     position: static;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     color: white;
+    font-size: 2.1rem;
 }
 
 main .main_content #main_content-Text{
     margin-top: 2vh;
     text-decoration: none;
     list-style: none;
-    font-size: 1.35rem;
+    font-size: 1.30rem;
     color: white;
 }
 
