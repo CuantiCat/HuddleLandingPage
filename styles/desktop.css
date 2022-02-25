@@ -1,5 +1,5 @@
 .background #background-image{
-    content: url(./images/bg-desktop.svg);
+    background-image: url("./images/bg-desktop.svg");
     height: 100vh;
 }
 
